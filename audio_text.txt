@@ -1,0 +1,11 @@
+Hi, I am Pankaj studying Interactive entertainment technology at trinity college dublin and I am going to show you one of my assignments using microsoft kinect sensor for a basic game. Here you can see  I am using depth information from kinect to display a basic skeleton of the player at run time. the scene is also augmented with some randomly generated beach-balls that the player is suapposed to poke-in and burst. The balls that cross the screen reappear on the right side at random location.
+
+I am using pose and gestures of the player to assist in the interaction as you can see the cylindrical primitives appearing at the hand joint location in the scene are signifying thhese specific pose for either hands. Left hand and right hand are recognised using different poses. I can recognise a specific gesture like here the right hand gesture of taking out a sword is recognised and payer is presented with a sword. 
+Now he can use this sword to poke the beach balls. you can see it appears that beach balls are bursting before the sword pokes in into the beach ball but this is because I am using bounding sphere collision detection that approximates a sphere in place of sword to detect the collision between the two. This is one of the simplest techniques for collision detection and requires less computations. 
+Player will have to move in 3d space to locate the balls to poke them. When the initial pose is recognised, the tools are taken away again.
+You can also use left hand gesture to get an array of primitive balls in your left hand and you can rotate it in without he need of any pointing device.
+
+
+you can use gestures of both your hand simultaneously to get both the tools togather.
+
+This is it.... thank you very much for watching the video.

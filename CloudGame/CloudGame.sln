@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudGame", "CloudGame\CloudGame\CloudGame.csproj", "{C2EC74A0-A0BE-46BD-ABDD-CA506B2940BF}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "CloudGameContent", "CloudGame\CloudGameContent\CloudGameContent.contentproj", "{19DB7575-41E4-4919-95B4-C5AAA70F1409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2EC74A0-A0BE-46BD-ABDD-CA506B2940BF}.Debug|x86.ActiveCfg = Debug|x86
+		{C2EC74A0-A0BE-46BD-ABDD-CA506B2940BF}.Debug|x86.Build.0 = Debug|x86
+		{C2EC74A0-A0BE-46BD-ABDD-CA506B2940BF}.Release|x86.ActiveCfg = Release|x86
+		{C2EC74A0-A0BE-46BD-ABDD-CA506B2940BF}.Release|x86.Build.0 = Release|x86
+		{19DB7575-41E4-4919-95B4-C5AAA70F1409}.Debug|x86.ActiveCfg = Debug|x86
+		{19DB7575-41E4-4919-95B4-C5AAA70F1409}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
